@@ -1,4 +1,8 @@
-function changeButtonColor() {
-    var button = document.getElementById('myButton');
-    button.classList.add('clicked');
-}
+
+const fa = document.querySelector('.fa')
+const faList = document.querySelector('.drop')
+if (!fa || !faList) throw new Error('Not present')
+fa.addEventListener('click', () => {
+    faList.classList.toggle('showfa');
+});
+
