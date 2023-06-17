@@ -8,7 +8,6 @@
 }
 
 .container-navigation {
-    height: 80px;
     width: 100%;
     display: -ms-flexbox;
 
@@ -24,6 +23,45 @@
     padding-top: 1%;
     font-weight: bold;
     background-color: #FAF1ED;
+}
+
+.check {
+
+    padding-top: 1%;
+}
+
+.fa {
+    cursor: pointer;
+    display: none;
+}
+
+
+@media all and (max-width:640px) {
+    .container-navigation {
+        flex-direction: column;
+    }
+
+    .container-navigation li {
+        display: block;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .drop {
+        display: none;
+    }
+
+    .fa {
+        display: block;
+        font-size: larger;
+
+    }
+
+    .showfa {
+        display: block;
+    }
+
+
 }
 
 .but {

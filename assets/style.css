@@ -24,7 +24,7 @@
     padding-top: 1%;
     font-weight: bold;
     background-color: #FAF1ED;
-    border: 5px solid #d01919;
+    justify-content: end;
 
 }
 
@@ -69,7 +69,6 @@
 
 .but {
     padding-top: 10px;
-    border: 5px solid #d01919;
 
 }
 
