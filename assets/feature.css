@@ -13,6 +13,10 @@
 
 }
 
+.navi-logo {
+    max-width: 90%;
+}
+
 .bg {
     background-color: #FAF1ED;
     height: 100%;
@@ -61,7 +65,6 @@
         display: block;
     }
 
-
 }
 
 .but {
@@ -86,13 +89,22 @@
 
 }
 
+.sec-2 {
+    padding-top: 4%;
+}
+
 .sec-3 {
+    padding-top: 3%;
     padding-bottom: 6%;
 }
 
 
 .sec-4 {
     background-color: #FBF5F2;
+}
+
+.ftrlogo {
+    max-width: 100%;
 }
 
 .br1 {
@@ -129,4 +141,35 @@
 .roo {
 
     padding-top: 6%;
+}
+
+.hsix {
+    font-weight: 500;
+    padding-bottom: 1%;
+    line-height: 1.7rem;
+    padding-left: 3%;
+}
+
+.hdt {
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    line-height: 2.7rem;
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+    .foot-hp {
+        font-size: medium;
+    }
+
+    .modify-med {
+        font-size: small;
+    }
+
+    .hsix {
+        padding-left: 7%;
+        line-height: 2rem;
+    }
+
 }

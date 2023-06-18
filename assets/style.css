@@ -5,23 +5,32 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
 }
 
 .container-navigation {
-    width: 100%;
+    max-width: 100%;
     display: -ms-flexbox;
     background-color: #FAF1ED;
     padding-bottom: 4%;
 
 }
 
+.navi-logo {
+    max-width: 100%;
+}
+
 .bg {
     background-color: #FAF1ED;
-    height: 100%;
+    min-height: 100%;
 }
 
 .col1 {
-    padding-top: 1%;
+    padding-top: 2%;
     font-weight: bold;
     background-color: #FAF1ED;
 
@@ -90,6 +99,11 @@
     background-color: #FAF1ED;
 }
 
+
+.wpig {
+    max-width: 100%;
+}
+
 .mainrow {
     background-color: #FAF1ED;
 }
@@ -107,14 +121,22 @@
 .col-reg {
     line-height: 1px;
     padding-top: 10px;
+    max-width: 100%;
 }
+
 
 .col-ml {
     background-color: #FFFFFF;
-    height: 100px auto;
+    min-height: 100px auto;
     border-radius: 5px;
     align-items: center;
     display: flex;
+    max-width: 100%;
+
+}
+
+.mlig {
+    max-width: 100%;
 }
 
 #myBtn {
@@ -128,6 +150,10 @@
     padding-top: 2%;
     border-radius: 1rem;
     background-color: #FFFFFF;
+}
+
+.mdlo {
+    max-width: 100%;
 }
 
 .br {
@@ -158,10 +184,14 @@
     padding-bottom: 6%;
 }
 
+.ftrlogo {
+    max-width: 100%;
+}
 
 .ftc1 {
     border-radius: 1rem;
     background-color: #FFFFFF;
+
 }
 
 .ftc2 {
@@ -183,4 +213,19 @@
 
 .roo {
     padding-top: 6%;
+}
+
+
+
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+    .foot-hp {
+        font-size: medium;
+    }
+
+    .modify-med {
+        font-size: small;
+    }
+
 }
