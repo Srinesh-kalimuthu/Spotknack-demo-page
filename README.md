@@ -7,5 +7,5 @@ I have done two pages of spotknack. I have learned bootstrap newly and implement
   <img src="https://img.shields.io/website?logo=github&style=flat-square&url=https%3A%2F%2Fsrinesh-portfolio.netlify.app%2" alt="spotknack website-status" />
 </a>
 
-Netlify [(https://spotknack-demo-page.vercel.app/)https://spotknack-demo-page.vercel.app/)]
+Netlify [(https://spotknack-demo-page.vercel.app/)]
 
